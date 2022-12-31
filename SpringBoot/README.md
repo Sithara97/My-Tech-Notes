@@ -35,3 +35,33 @@ HTTP Reponse -> HEADER (Optional), BODY (Optional), HTTP STATUS (Mandatory)
 Website -> HTTP Request -> HTTP Response -> Content-Type -> text/html -> Website
 
 WebService/Web API -> HTTP Request -> HTTP Response -> Content-Type -> application/json -> WebService
+
+### Response -> JSON ???
+
+JSON -> Javascript Object Notation
+
+JSON
+
+Data Object - {}
+Data Array - []
+
+Data -> Key Value Pair
+
+Key -> Always String
+
+Value -> Can be String, Number, Boolean, Array, Object
+
+```json
+{
+	"name" : "Vicky",
+	"city" : "Thiruvarur",
+	"pincode" : 610001,
+	"isMarried": true,
+	"address" : {
+		"street" : "udayar Street",
+		"door": "5A"
+	},
+	"languages": ["Tamil", "English", "Hindi"],
+	"companies": [{"name": "TCS", "location": "Chennai"}, {"name": "CTS", "location": "Bengaluru"}]
+}
+```
